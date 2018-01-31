@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  background-image: url(d.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section{
+  color: #222;
+  background: #fff;
+  width:70%;
+  height: minmax(900px,auto);
+  margin: auto;
+  border-radius: 0px;
+  padding:0rem 0rem;
+  font-family:"lato", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  border: 1px solid lightgray;
+}
+.one{
+    padding-top: 0px;
+    background-color: #f3f3f3;
+    background-size: contain;
+    height: 180px;
+    border-bottom: 2px solid #cf8a05;
+}
+.text-center
+{
+  padding-top: 50px;
+  font-size: 20px;
+}
+.zabid{
+  height: 150px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+.zpic{
+  padding-top: 15px;
+}
+.two,.three,.four,.five,.six, .seven{
+  background-color: #fff;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 1%
+  background-position: center;
+  background-attachment: fixed;
+  border-bottom: 1px solid  gray;
+}
+.two1
+{
+  /* padding-left: px:  */
+  font-size: 15px;
+}
+.two2
+{
+  text-align: justify;
+  font-size: 15px;
+}
+.two3
+{
+  font-size: 15px;
+  padding-left:45px;
+}
+.section:hover{
+  box-shadow: 0 2px 7px rgba(0,0,0,0.8);
+  transition: 0.3s;
+}
+.fa-facebook-official:hover{
+  color:skyblue;
+}
+.fa-linkedin-square:hover {
+  color: blue;
+}
+.fa-github-square:hover{
+  color: orange;
+}
