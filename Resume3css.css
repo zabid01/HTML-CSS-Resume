@@ -1,67 +1,76 @@
 body{
   margin: 0;
+  padding-top: 4px;
+  padding-bottom: 7px;
   background-image: url(d.jpg);
   background-attachment: fixed;
-  background-size: cover;
+  background-size:cover;
+  background-repeat:no-repeat ;
+
 }
-.section{
-  color: #222;
-  background: #fff;
-  width:70%;
+.container
+{
+width: 100%;
+margin: auto;
+overflow: hidden;
+}
+.page{
+  width:60%;
   height: minmax(900px,auto);
   margin: auto;
   border-radius: 0px;
-  padding:0rem 0rem;
   font-family:"lato", Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  border: 1px solid lightgray;
+
 }
-.one{
-    padding-top: 0px;
-    background-color: #f3f3f3;
-    background-size: contain;
-    height: 180px;
-    border-bottom: 2px solid #cf8a05;
-}
-.text-center
+header
 {
-  padding-top: 50px;
-  font-size: 20px;
+
+  background-color: #f3f3f3;
+  padding-top: 0px;
+  min-height: 180px;
+  border-bottom: #cf8a05 2px solid ;
 }
-.zabid{
-  height: 150px;
+
+
+header .topLeft
+{
+   padding-top: 50px;
+   font-size: 25px;
+}
+header .topRight{
+  padding-top: 12px;
+}
+header .pic{
+  height: 155px;
   display: block;
-  margin: auto;
   border-radius: 50%;
 }
-.zpic{
-  padding-top: 15px;
-}
-.two,.three,.four,.five,.six, .seven{
-  background-color: #fff;
-  background-size: cover;
+
+.sub{
+  background-color: white;
   padding-top: 2%;
   padding-bottom: 1%
-  background-position: center;
-  background-attachment: fixed;
-  border-bottom: 1px solid  gray;
+  border-bottom-style:inset;
+  border-bottom: 1px solid  #D8D8D8;
 }
+
 .two1
 {
-  /* padding-left: px:  */
-  font-size: 15px;
+  font-size: 14px;
 }
 .two2
 {
-  text-align: justify;
-  font-size: 15px;
+  /* text-align: justify; */
+  font-size: 13px;
+  /* padding-left:38px; */
 }
 .two3
 {
-  font-size: 15px;
-  padding-left:45px;
+  font-size: 13px;
+  padding-left:38px;
 }
-.section:hover{
+
+.page:hover{
   box-shadow: 0 2px 7px rgba(0,0,0,0.8);
   transition: 0.3s;
 }
@@ -73,4 +82,49 @@ body{
 }
 .fa-github-square:hover{
   color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+
+
+  header,.sub,.containerm,{
+    /* text-align: left; */
+    width: 100%;
+  }
+  header .zpic{
+    padding-bottom: 10px;
+  }
+  header .pic{
+    margin: auto;
+    border-radius: 2%;
+    height: 142px;
+  }
+  .two1
+  {
+    text-align-last: center;
+    font-weight: bold;
+
+  }
+  .two2
+  {
+    text-align: justify;
+    text-align-last: center;
+
+  }
+  .two3
+  {
+    padding-left:0px;
+    text-align-last: center;
+  }
+
 }
